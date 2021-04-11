@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://nodes/BackgroundInicial.tscn" type="PackedScene" id=1]
 [ext_resource path="res://nodes/BackgroundRandom.tscn" type="PackedScene" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://nodes/Brave.tscn" type="PackedScene" id=6]
 [ext_resource path="res://nodes/Door.tscn" type="PackedScene" id=7]
 [ext_resource path="res://nodes/ToDo.tscn" type="PackedScene" id=8]
+[ext_resource path="res://nodes/CorruptedEsp.tscn" type="PackedScene" id=9]
 
 [node name="FirstRoom" type="Node2D"]
 script = ExtResource( 5 )
@@ -28,7 +29,6 @@ pos = Vector2( 1152.87, 438.515 )
 position = Vector2( 13.4543, 935.077 )
 
 [node name="Camera3" type="Camera2D" parent="Background2"]
-position = Vector2( 0, 5.72595 )
 scale = Vector2( 4123.31, -1972.92 )
 anchor_mode = 0
 
@@ -62,7 +62,6 @@ pos = Vector2( 1158.27, 1366.64 )
 position = Vector2( 16.9514, 1873.13 )
 
 [node name="Camera5" type="Camera2D" parent="Background4"]
-position = Vector2( -16.9514, 8.47998 )
 anchor_mode = 0
 
 [node name="Door" parent="Background4" instance=ExtResource( 7 )]
@@ -85,7 +84,6 @@ anchor_mode = 0
 position = Vector2( 64.3662, 451.627 )
 rotation = -1.57079
 type = 3
-is_open = true
 pos = Vector2( 1158.95, 2308.82 )
 
 [node name="BackgroundInit" parent="." instance=ExtResource( 1 )]
@@ -111,7 +109,7 @@ type = 2
 pos = Vector2( 665.854, 1101.56 )
 
 [node name="Player" parent="." instance=ExtResource( 4 )]
-position = Vector2( 644.999, 637.889 )
+position = Vector2( 649.429, 683.351 )
 
 [node name="Brave" parent="." instance=ExtResource( 6 )]
 position = Vector2( 2001.89, 285.269 )
@@ -157,6 +155,9 @@ position = Vector2( 404.23, 2613.28 )
 
 [node name="Brave8" parent="." instance=ExtResource( 6 )]
 position = Vector2( 1133.14, 2422.86 )
+
+[node name="CorruptedEsp" parent="." instance=ExtResource( 9 )]
+position = Vector2( 2481.78, 2350.84 )
 [connection signal="body_entered" from="Background" to="." method="_on_Background_body_entered"]
 [connection signal="body_exited" from="Background" to="." method="_on_Background_body_exited"]
 [connection signal="body_entered" from="Background2" to="." method="_on_Background2_body_entered"]

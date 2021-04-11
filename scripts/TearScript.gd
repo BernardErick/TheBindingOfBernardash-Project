@@ -18,6 +18,10 @@ func _physics_process(delta):
 			generate_blood(collision.collider)
 			collision.collider.received_damage()
 			queue_free()
+		if collision.collider.name == "CorruptedEsp":
+			generate_blood(collision.collider)
+			collision.collider.received_damage()
+			queue_free()			
 		self.visible = false
 func selfDestruction():
 	yield(get_tree().create_timer(life_time),"timeout")
