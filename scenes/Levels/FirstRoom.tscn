@@ -111,7 +111,7 @@ type = 2
 pos = Vector2( 665.854, 1101.56 )
 
 [node name="Player" parent="." instance=ExtResource( 4 )]
-position = Vector2( 640.285, 645.722 )
+position = Vector2( 644.999, 637.889 )
 
 [node name="Brave" parent="." instance=ExtResource( 6 )]
 position = Vector2( 2001.89, 285.269 )
@@ -158,8 +158,13 @@ position = Vector2( 404.23, 2613.28 )
 [node name="Brave8" parent="." instance=ExtResource( 6 )]
 position = Vector2( 1133.14, 2422.86 )
 [connection signal="body_entered" from="Background" to="." method="_on_Background_body_entered"]
+[connection signal="body_exited" from="Background" to="." method="_on_Background_body_exited"]
 [connection signal="body_entered" from="Background2" to="." method="_on_Background2_body_entered"]
+[connection signal="body_exited" from="Background2" to="." method="_on_Background2_body_exited"]
 [connection signal="body_entered" from="Background3" to="." method="_on_Background3_body_entered"]
+[connection signal="body_exited" from="Background3" to="." method="_on_Background3_body_exited"]
 [connection signal="body_entered" from="Background4" to="." method="_on_Background4_body_entered"]
+[connection signal="body_exited" from="Background4" to="." method="_on_Background4_body_exited"]
 [connection signal="body_entered" from="Background5" to="." method="_on_Background5_body_entered"]
+[connection signal="body_exited" from="Background5" to="." method="_on_Background5_body_exited"]
 [connection signal="body_entered" from="BackgroundInit" to="." method="_on_BackgroundInit_body_entered"]

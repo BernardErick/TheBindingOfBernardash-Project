@@ -3,7 +3,6 @@ extends KinematicBody2D
 var movement = Vector2(0,0)
 export var speed = 200
 export var life = 3.0
-export var coins = 0
 var bullet = preload("res://nodes/Tear.tscn")
 var can_fire = true
 var rate_of_fire = 0.5
@@ -69,6 +68,7 @@ func received_damage(body):
 	yield(get_tree().create_timer(0.1),"timeout")
 	get_node("Sprite").visible = true
 	life -= 0.5
+	Global.player_life -= 0.5
 	if life == 0.0:
 		yield(get_tree().create_timer(0.1),"timeout")
 		queue_free()
