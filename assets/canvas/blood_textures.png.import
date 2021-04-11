@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wall2.png-29f7bbde05c4616b9f85d0be26154f55.stex"
+path="res://.import/blood_textures.png-57177ea8a63bab4eedaaa15ee908879f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/wall2.png"
-dest_files=[ "res://.import/wall2.png-29f7bbde05c4616b9f85d0be26154f55.stex" ]
+source_file="res://assets/canvas/blood_textures.png"
+dest_files=[ "res://.import/blood_textures.png-57177ea8a63bab4eedaaa15ee908879f.stex" ]
 
 [params]
 

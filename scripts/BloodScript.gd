@@ -10,13 +10,13 @@ func _ready():
 func generateRandomBlood():
 	var randNumber = rng.randi_range(1,5)
 	if randNumber == 1:
-		$Sprite.texture = load("res://assets/blood1.tres")
+		$Sprite.texture = load("res://assets/canvas/blood1.tres")
 	if randNumber == 2:
-		$Sprite.texture = load("res://assets/blood2.tres")
+		$Sprite.texture = load("res://assets/canvas/blood2.tres")
 	if randNumber == 3:
-		$Sprite.texture = load("res://assets/blood3.tres")
+		$Sprite.texture = load("res://assets/canvas/blood3.tres")
 	if randNumber == 4:
-		$Sprite.texture = load("res://assets/blood4.tres")
+		$Sprite.texture = load("res://assets/canvas/blood4.tres")
 	if randNumber == 5:
-		$Sprite.texture = load("res://assets/blood5.tres")
+		$Sprite.texture = load("res://assets/canvas/blood5.tres")
 

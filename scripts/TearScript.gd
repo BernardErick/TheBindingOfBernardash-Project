@@ -24,12 +24,12 @@ func selfDestruction():
 	queue_free()
 func generate_blood(body):
 	rng.randomize()
-	var type = rng.randi_range(1, 3)
-	if type == 1 or type == 2:
+	var type = rng.randi_range(1, 1)
+	if type == 1:
 		var blood = preload("res://nodes/Blood.tscn").instance()
 		blood.position = body.position
 		get_parent().add_child(blood)
-		get_parent().move_child(blood,1)
+		get_parent().move_child(blood,6)
 		print(blood.get_position_in_parent())
 
 	

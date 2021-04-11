@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bomb_explosion.png-f1301fd01d728a08629092fccc19dcc6.stex"
+path="res://.import/doors.png-7211c58474c66bfa8dcb1f617b2168ee.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/UI/bomb_explosion.png"
-dest_files=[ "res://.import/bomb_explosion.png-f1301fd01d728a08629092fccc19dcc6.stex" ]
+source_file="res://assets/canvas/doors.png"
+dest_files=[ "res://.import/doors.png-7211c58474c66bfa8dcb1f617b2168ee.stex" ]
 
 [params]
 

@@ -1,10 +1,14 @@
 [gd_scene load_steps=12 format=2]
 
-[ext_resource path="res://assets/stone_ground.png" type="Texture" id=1]
-[ext_resource path="res://assets/wall_ground.png" type="Texture" id=2]
-[ext_resource path="res://assets/ground.png" type="Texture" id=3]
+[ext_resource path="res://assets/canvas/stone_ground.png" type="Texture" id=1]
+[ext_resource path="res://assets/canvas/wall_ground.png" type="Texture" id=2]
+[ext_resource path="res://assets/canvas/ground.png" type="Texture" id=3]
 [ext_resource path="res://scripts/stonesGenerator.gd" type="Script" id=4]
-[ext_resource path="res://assets/wall2.png" type="Texture" id=5]
+[ext_resource path="res://assets/canvas/wall2.png" type="Texture" id=5]
+
+
+
+
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 100, 100, 0, 100, 0, 0, 100, 0 )

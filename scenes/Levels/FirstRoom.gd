@@ -7,6 +7,8 @@ onready var b4 = get_node("Background3")
 onready var b5 = get_node("Background4")
 onready var b6 = get_node("Background5")
 func _ready():
+	b1.get_node("Door").is_open = true
+	b1.get_node("Door2").is_open = true
 	pass 
 
 

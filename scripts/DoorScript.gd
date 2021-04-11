@@ -4,9 +4,9 @@ extends Area2D
 # Declare member variables here. Examples:
 # var a = 2
 # var b = "text"
-var doorBoss = preload("res://assets/door_boss.tres")
-var doorClosed = preload("res://assets/door_closed.tres")
-var doorOpened = preload("res://assets/door_opened.tres")
+var doorBoss = preload("res://assets/canvas/door_boss.tres")
+var doorClosed = preload("res://assets/canvas/door_closed.tres")
+var doorOpened = preload("res://assets/canvas/door_opened.tres")
 export var type = 1
 export var start = false
 export var is_open = false
@@ -26,6 +26,7 @@ func typeDoor(type):
 
 
 func _on_Door_body_entered(body):
-	if body.name == "Player":
+	if body.name == "Player" and is_open:
+		print("na porta")
 		body.position = pos
 	pass # Replace with function body.

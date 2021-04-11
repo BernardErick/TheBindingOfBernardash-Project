@@ -23,9 +23,8 @@ func _movement_brave(delta):
 			Player.received_damage(self)
 			yield(get_tree().create_timer(1.2),"timeout")
 			touchPlayer = false
-		else:
-			touchPlayer = false
-		#touchPlayer = false
+	else:
+		touchPlayer = false
 		
 func _on_AtackArea_body_entered(body):
 	if body == Player:
