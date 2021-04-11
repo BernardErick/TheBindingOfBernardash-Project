@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/blood1.tres" type="Texture" id=1]
+[ext_resource path="res://scripts/BloodScript.gd" type="Script" id=2]
+
+[node name="Blood" type="Node2D"]
+light_mask = -2147483647
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 1 )

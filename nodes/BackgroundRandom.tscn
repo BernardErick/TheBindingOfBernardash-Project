@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://assets/stone_ground.png" type="Texture" id=1]
 [ext_resource path="res://assets/wall_ground.png" type="Texture" id=2]
@@ -96,7 +96,10 @@ points = PoolVector2Array( 100, 100, 0, 100, 0, 0, 100, 0 )
 } ]
 1/z_index = 0
 
-[node name="Background" type="Node2D"]
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 656.551, 457.091 )
+
+[node name="Background" type="Area2D"]
 
 [node name="ground" type="TileMap" parent="."]
 tile_set = SubResource( 3 )
@@ -109,3 +112,7 @@ tile_set = SubResource( 5 )
 cell_size = Vector2( 100, 100 )
 format = 1
 script = ExtResource( 4 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 656.937, 453.06 )
+shape = SubResource( 6 )

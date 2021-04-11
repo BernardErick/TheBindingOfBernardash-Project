@@ -20,11 +20,12 @@ func _movement_brave(delta):
 	if collision:
 		if collision.collider == Player and !touchPlayer:
 			touchPlayer = true
-			Player.received_damage()
-			yield(get_tree().create_timer(1.0),"timeout")
+			Player.received_damage(self)
+			yield(get_tree().create_timer(1.2),"timeout")
 			touchPlayer = false
-	else:
-		touchPlayer = false
+		else:
+			touchPlayer = false
+		#touchPlayer = false
 		
 func _on_AtackArea_body_entered(body):
 	if body == Player:

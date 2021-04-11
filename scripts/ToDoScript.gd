@@ -53,7 +53,7 @@ func _on_Area2D_body_exited(body):
 func _attackThePlayer():
 	if touchPlayer and can_hit:
 		can_hit = false
-		Player.received_damage()
+		Player.received_damage(self)
 		yield(get_tree().create_timer(1.0),"timeout")
 		can_hit = true
 func received_damage():

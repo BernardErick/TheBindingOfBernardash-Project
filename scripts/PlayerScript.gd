@@ -60,7 +60,7 @@ func _shooting():
 		can_fire = true	
 	pass
 		
-func received_damage():
+func received_damage(body):
 	get_node("Sprite").visible = false
 	yield(get_tree().create_timer(0.1),"timeout")
 	get_node("Sprite").visible = true
@@ -72,3 +72,4 @@ func received_damage():
 	if life == 0.0:
 		yield(get_tree().create_timer(0.1),"timeout")
 		queue_free()
+
