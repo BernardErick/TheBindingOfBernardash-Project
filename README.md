@@ -17,6 +17,7 @@
 <h4 align="center"> 
 	🚧  The Binding of Bernardash 🚀💻 Em construção...  🚧
 </h4>
+
 ### Features
 
 - [x] Versão de teste (Alfa)
