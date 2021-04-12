@@ -6,3 +6,6 @@
 </h1>
 <p align="center">🚀 motor de jogo de código aberto publicado no âmbito da licença MIT desenvolvido pela comunidade do Godot Engine e utilizado para criação desse projeto</p>
 <img src="https://img.shields.io/badge/license-MIT-brightgreen"/>
+<p align="center">
+<img src="https://img.shields.io/badge/license-MIT-brightgreen"/>
+</p>
