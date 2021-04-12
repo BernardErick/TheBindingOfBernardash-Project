@@ -12,7 +12,6 @@ var texture_invincible = preload("res://assets/monsters-assets/CorrupetedEspArmo
 var is_invincible = true
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	Serial.connect("setInvincibility",self,"_setInvincibility")
 	_setInvincibility(true)
 	pass # Replace with function body.
 func _physics_process(delta):

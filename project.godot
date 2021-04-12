@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="The Binding Of Bernardash"
-run/main_scene="res://scenes/SceneTest.tscn"
+run/main_scene="res://scenes/Levels/FirstRoom.tscn"
 config/icon="res://icon.png"
 
 [autoload]
