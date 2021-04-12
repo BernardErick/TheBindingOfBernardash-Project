@@ -5,4 +5,4 @@
     <a href="https://godotengine.org">🔗 Godot</a>
 </h1>
 <p align="center">🚀 motor de jogo de código aberto publicado no âmbito da licença MIT desenvolvido pela comunidade do Godot Engine e utilizado para criação desse projeto</p>
-https://img.shields.io/badge/license-MIT-brightgreen
+<img src="https://img.shields.io/badge/license-MIT-brightgreen"/>
