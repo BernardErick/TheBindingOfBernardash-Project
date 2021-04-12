@@ -35,3 +35,11 @@
   <img alt="TheBindingofBernardash" title="#TheBindingofBernardash" src="./screenshots/wallpaper.png" />
 </h1>
 
+<h1 align="center">
+  <img alt="TheBindingofBernardash" title="#TheBindingofBernardash" src="./screenshots/screenshot1.png" />
+</h1>
+
+<h1 align="center">
+  <img alt="TheBindingofBernardash" title="#TheBindingofBernardash" src="./screenshots/screenshot2.png" />
+</h1>
+
