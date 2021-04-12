@@ -1,4 +1,7 @@
 <h1 align="center">The Binding of Bernardash</h1>
+<h1 align="center">
+  <img alt="TheBindingofBernardash" title="#TheBindingofBernardash" src="./screenshots/logo.png" />
+</h1>
 ## Descrição do Projeto
 <p align="center">Este projeto é um estudo de desenvolvimento de jogos que visa a recriação de um jogo popular chamado de The Binding of Isaac. Ele é um jogo eletrônico independente do gênero roguelike criado e desenvolvido por Edmund McMillen e Florian Himsl, e lançado para Microsoft Windows, OS X e Linux. O título e o enredo do jogo foram inspirados pela história bíblica do sacrifício de Isaque.</p>
 <h1 align="center">
@@ -28,3 +31,4 @@
 <h1 align="center">
   <img alt="TheBindingofBernardash" title="#TheBindingofBernardash" src="./screenshots/wallpaper.png" />
 </h1>
+
