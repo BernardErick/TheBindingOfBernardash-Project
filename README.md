@@ -1,3 +1,4 @@
+<h1 align="center">The Binding of Bernardash</h1>
 <h4 align="center"> 
 🚧  The Binding of Bernardash 🚀 Em construção...  🚧
 ### 🛠 Godot Engine
