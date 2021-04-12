@@ -109,7 +109,7 @@ type = 2
 pos = Vector2( 665.854, 1101.56 )
 
 [node name="Player" parent="." instance=ExtResource( 4 )]
-position = Vector2( 649.429, 683.351 )
+position = Vector2( 1786.32, 2392.05 )
 
 [node name="Brave" parent="." instance=ExtResource( 6 )]
 position = Vector2( 2001.89, 285.269 )
