@@ -17,9 +17,10 @@
 <h4 align="center"> 
 	🚧  The Binding of Bernardash 🚀💻 Em construção...  🚧
 </h4>
-
 ### Features
+- [x] Versão de teste (Alfa)
+- [ ] Interface GUI completa
+- [ ] Versão jogável (Beta)
+- [ ] ...
 
-- [x] Cadastro de usuário
-- [x] Cadastro de cliente
-- [ ] Cadastro de produtos
+
