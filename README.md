@@ -26,5 +26,5 @@
 - [ ] ...
 
 <h1 align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./screenshots/wallpaper.png" />
+  <img alt="TheBindingofBernardash" title="#TheBindingofBernardash" src="./screenshots/wallpaper.png" />
 </h1>
