@@ -6,3 +6,20 @@
 </h1>
 <p align="center">🚀 motor de jogo de código aberto publicado no âmbito da licença MIT desenvolvido pela comunidade do Godot Engine e utilizado para criação desse projeto</p>
 <p align="center"><img src="https://img.shields.io/badge/license-MIT-brightgreen"/></p>
+
+<p align="center">
+ <a href="#objetivo">Objetivo</a> •
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#licenca">Licença</a> • 
+ <a href="#autor">Autor</a>
+</p>
+
+<h4 align="center"> 
+	🚧  The Binding of Bernardash 🚀💻 Em construção...  🚧
+</h4>
+
+### Features
+
+- [x] Cadastro de usuário
+- [x] Cadastro de cliente
+- [ ] Cadastro de produtos
